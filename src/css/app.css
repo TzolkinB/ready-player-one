@@ -103,7 +103,7 @@ a:hover { text-decoration: none;}
 
 
 .bg-primary { 
-  background: #ff6f00!important;
+  background: #8e24aa !important; /* to override template default */
 }
 
 /* ----- Footer ----- */

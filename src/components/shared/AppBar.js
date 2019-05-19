@@ -30,8 +30,7 @@ const AppBar = () => {
     <div>
       <nav className="navbar navbar-expand-lg text-white bg-primary navbar-dark">
         <a href="/" className="navbar-brand pl-2">
-          <img src={AmarLogo} alt="AMAR Logo" width="45" height="45" />
-          <span className="text-white pl-3 font-weight-light">UIX REACT TEMPLATE</span>
+          <span className="text-white pl-3 font-weight-light">Ready Player One</span>
         </a>
         <button 
           className="navbar-toggler" 

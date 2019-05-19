@@ -1,26 +1,31 @@
 import React          from 'react'
 import { HashRouter } from 'react-router-dom'
 import { render }     from 'react-dom'
+import { Provider } from 'react-redux';
+import store from './redux/store';
+
 
 import 'Style/app.css';
 
-import MIBrandBar       from  './components/shared/MIBrandBar';
 import AppBar           from  './components/shared/AppBar';
 import Breadcrumbs      from  './components/shared/Breadcrumbs';
 import Footer           from  './components/shared/Footer';
+import Dashboard        from  './components/Dashboard';
 
 const App = () => (
   <div>
-    <MIBrandBar />
     <AppBar />
     <Breadcrumbs />
+    <Dashboard />
     <Footer />
   </div>
 )
 
 render(
-  <HashRouter basename="/">
-    <App />
-  </HashRouter>
+  <Provider store={store}>
+    <HashRouter basename="/">
+      <App />
+    </HashRouter>
+  </Provider>
 
-  , document.getElementById('uix-react-template'));
+  , document.getElementById('ready-player-one'));
