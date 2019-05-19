@@ -1,7 +1,7 @@
 {
-  "name": "uix-react-template",
+  "name": "ready-player-one",
   "version": "0.0.1",
-  "description": "React/Webpack boilerplate created for the UIX team"
+  "description": "React/Webpack boilerplate created for the UIX team",
   "main": "app.js",
   "repository": {
     "type": "git",
